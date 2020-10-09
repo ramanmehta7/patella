@@ -10,7 +10,8 @@
 <body>
 <section class="banner">
     <div class="banner-container">
-        <img src="resources/images/splash.png"/>
+
+        <img class="banner-img" src="resources/images/splash.png"/>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Morbi tincidunt ornare massa eget egestas purus. Tortor at risus viverra adipiscing
