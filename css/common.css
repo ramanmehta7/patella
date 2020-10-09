@@ -1,0 +1,51 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background: floralwhite;
+    /*clip-path: polygon(0 0, 60% 0, 40% 100%, 0% 100%);*/
+}
+
+.banner-container {
+    height: 85%;
+    width: 86%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;
+    background: whitesmoke;
+}
+
+.left-banner {
+    width: 100%;
+    height: 100%;
+    background: rgba(50,205,50,1);
+    clip-path: polygon(0 0, 65% 0, 45% 100%, 0% 100%);
+}
+
+.left-banner h1 {
+    color: white;
+    font-family: 'Pacifico', cursive;
+    padding-top: 7%;
+    padding-left: 10%;
+    font-size: 5em;
+}
+
+.banner-container p {
+    position: absolute;
+    color: black;
+    font-family: 'Chilanka', cursive;
+    top: 28%;
+    left: 62.5%;
+    font-size: 1.5em;
+    z-index: 2;
+    max-width: 28%;
+}
+
+.banner-container img {
+    position: absolute;
+    top: -8%;
+    left: 22%;
+    z-index: 2;
+}
